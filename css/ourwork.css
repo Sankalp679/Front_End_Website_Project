@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.ourwork-main {
+  font-family: "Raleway", sans-serif;
+  color: black;
+  width: 100%;
+}
+
+.ourwork-h1 {
+  text-align: center;
+  color:white;
+  font-size: 2.5rem;
+}
+
+.ourwork-cards_item {
+  width: 33.33%;
+}
+
+.ourworkvideo {
+  height: auto;
+  width: 100%;
+  vertical-align: middle;
+  border-color: white;
+  border-radius: 0.65rem;
+  align-content: center;
+  align-items: center;
+}
+
+.ourwork-btn {
+  width: auto;
+  position: relative;
+  top: -5%;
+}
+
+.ourwork-cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  border-radius: 25px;
+  justify-content: space-evenly;
+}
+
+.ourwork-cards_item {
+  display: flex;
+  width: 48vw;
+  border-radius: 25px;
+}
+
+.ourwork-card {
+  background-color: #00000000;
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.ourwork-card_content {
+  padding: 1rem;
+}
+
+/*Animation of videos section below*/
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.ourwork-card {
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out 0s forwards;
+  animation-delay: 1s;
+}
+
+/* Desktop 1x6 */
+@media only screen and (max-width: 1824px) {
+  .ourwork-cards_item {
+    width: 15.33%;
+  }
+}
+
+/* Tablet 3x2 */
+@media only screen and (max-width: 1000px) {
+  .ourwork-cards_item {
+    width: 31.83%;
+  }
+}
+
+/* Phones 2x3 */
+@media only screen and (max-width: 500px) {
+  .ourwork-cards_item {
+    width: 48.33%;
+  }
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <link rel="stylesheet" href="../css/contact.css">
+    <script src="..//js/contact.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="contact-contact">
+            <div class="contact-container">
+                <div class="contact-contactinfo">
+                    <div>
+                        <h2>Contact Information</h2>
+                        <ul class="contact-info">
+                            <li>
+                                <span ><i id="contact-icons" class="fa fa-map-marker" style="color:skyblue"></i></span>
+                                <span class="contact-lines">45 Appartment,near kohlapur mumbai,  395007</span>
+                            </li>
+                            <li>
+                                <span><i id="contact-icons-2" class="fa fa-envelope" style="color:skyblue"></i></span>
+                                <span class="contact-lines">sankalp.jain@technicals.com</span>
+                            </li>
+                            <li>
+                                <span><i id="contact-icons-2" class="fa fa-phone" style="color:skyblue"></i></span>
+                                <span class="contact-lines">999-2913-346</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="contact-sci">
+                        <li><a href="#" class="fa fa-linkedin"></a></li>
+                        <li><a href="#" class="fa fa-instagram"></a></li>
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                    </ul>
+                </div>
+                <div class="contact-contactForm" method="POST">
+                    <form>
+                        <h2> Send us a message</h2>
+                        <div class="contact-formBox">
+                            <div class="contact-inputBox w50">
+                                <input type="text" name="user_name" id="user_name" required>
+                                <span>Name</span>
+                            </div>
+
+                            <div class="contact-inputBox w50">
+                                <input type="text" name="user_mail" id="user_email" required>
+                                <span>Email Address</span>
+                            </div>
+
+                            <div class="contact-inputBox w100">
+                                <textarea name="user_msg" id="user_msg" required></textarea>
+                                <span>Write your Message.......</span>
+                            </div>
+                        </div>
+                        <button class="contact-texs" type="submit" onclick="sendEmail()">Send details</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+</body>
+
+
+</html>

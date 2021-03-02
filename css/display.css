@@ -1,0 +1,1188 @@
+*
+{
+  margin:0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* .display-float-container1
+{
+  display: flex;
+  width: 100%;
+  flex-flow: column wrap;
+  margin-top: 700px;
+}
+
+.display-row1
+{
+  margin: 1%;
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.display-float-card-imgbx-1
+{
+  margin:1%;
+  width: 47%;
+  height: 380px;
+}
+.display-float-container1 .display-row1 .display-float-card-imgbx-1 img
+{
+  width:380px;
+  height: 380px;
+}
+.display-float-card-content-2
+{
+    margin-top: 3%;
+  width: 47%;
+}
+.display-float-container1 .display-row1 .display-float-card-content-2 .btn {
+  border:solid black;
+  background-color: blue;
+  padding: 14px 20px;
+    cursor: pointer;
+  width: 25%;
+  display: inline;
+}
+.info {color: white; border-radius: 10%;}
+
+.display-row2 {
+  margin: 1%;
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.display-float-card-content-3
+{
+  width: 64%;
+  margin: 1%;
+    padding-top: 3%;
+}
+
+.display-float-container1 .display-row2 .display-float-card-content-3 .btn {
+  border:solid black;
+  background-color: blue;
+  padding: 14px 20px;
+    cursor: pointer;
+  width: 25%;
+  display: inline;
+}
+.info {color: white; border-radius: 10%;}
+
+.display-float-card-imgbx-4 {
+  width: 31%;
+  margin: 1%;
+  height: 380px;
+
+}
+.display-float-container1 .display-row2 .display-float-card-imgbx-4 img
+{
+  width:300px;
+  height: 300px;
+}
+
+
+.display-row3 {
+  margin: 1%;
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.display-float-card-imgbx-5 {
+  width: 31%;
+  margin: 1%;
+  height: 380px;
+}
+.display-float-container1 .display-row3 .display-float-card-imgbx-5 img
+{
+  width:400px;
+  height: 400px;
+}
+.display-float-card-content-6
+ {
+  width: 64%;
+  margin: 1%;
+
+    margin-top: 3%;
+}
+
+.display-float-container1 .display-row3 .display-float-card-content-6 .btn {
+  border:solid black;
+  background-color: blue;
+  padding: 14px 20px;
+    cursor: pointer;
+  width: 25%;
+  display: inline;
+}
+.info {color: white; border-radius: 10%;}
+
+
+.display-row4 {
+  margin: 1%;
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.display-float-card-content-7
+{
+  width: 64%;
+  margin: 1%;
+    padding-top: 3%;
+}
+
+.display-float-container1 .display-row4 .display-float-card-content-7 .btn {
+  border:solid black;
+  background-color: blue;
+  padding: 14px 20px;
+    cursor: pointer;
+  width: 25%;
+  display: inline;
+}
+.info {color: white; border-radius: 10%;}
+
+.display-float-card-imgbx-8 {
+  width: 31%;
+  margin: 1%;
+  height: 380px;
+
+}
+.display-float-container1 .display-row4 .display-float-card-imgbx-8 img
+{
+  width:370px;
+  height: 370px;
+}
+
+
+.display-row5 {
+  margin: 1%;
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.display-float-card-imgbx-9 {
+  width: 31%;
+  margin: 1%;
+  height: 380px;
+}
+.display-float-container1 .display-row5 .display-float-card-imgbx-9 img
+{
+  width:370px;
+  height: 370px;
+}
+.display-float-card-content-10
+ {
+  width: 64%;
+  margin: 1%;
+    padding-top: 1%;
+}
+
+.display-float-container1 .display-row5 .display-float-card-content-10 .btn {
+  border:solid black;
+  background-color: blue;
+  padding: 14px 20px;
+    cursor: pointer;
+  width: 25%;
+  display: inline;
+}
+.info {color: white; border-radius: 10%;} */
+
+/* Media Query */
+
+
+/* @media screen and (max-width :1000px)
+{
+  .display-float-container1
+{
+  display: flex;
+  width: 100%;
+  flex-flow: column wrap;
+  margin-top: 740px;
+}
+
+.display-row1
+{
+  margin: 1%;
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.display-float-card-imgbx-1
+{
+  margin:1%;
+  width: 31%;
+  height: 380px;
+}
+.display-float-container1 .display-row1 .display-float-card-imgbx-1 img
+{
+  width:250px;
+  height: 250px;
+}
+.display-float-card-content-2
+{
+    margin-top: 3%;
+
+  width: 64%;
+  margin: 1%;
+}
+.display-float-container1 .display-row1 .display-float-card-content-2 .btn {
+  border:solid black;
+  background-color: blue;
+  padding: 14px 20px;
+    cursor: pointer;
+  width: 25%;
+  display: inline;
+}
+.info {color: white; border-radius: 10%;}
+
+.display-row2 {
+  margin: 1%;
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.display-float-card-content-3
+{
+  width: 64%;
+  margin: 1%;
+    margin-top: 3%;
+}
+
+.display-float-container1 .display-row2 .display-float-card-content-3 .btn {
+  border:solid black;
+  background-color: blue;
+  padding: 14px 20px;
+    cursor: pointer;
+  width: 25%;
+  display: inline;
+}
+.info {color: white; border-radius: 10%;}
+
+.display-float-card-imgbx-4 {
+  width: 31%;
+  margin: 1%;
+  height: 380px;
+
+}
+.display-float-container1 .display-row2 .display-float-card-imgbx-4 img
+{
+  width:250px;
+  height: 250px;
+}
+
+
+.display-row3 {
+  margin: 1%;
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.display-float-card-imgbx-5 {
+  width: 31%;
+  margin: 1%;
+  height: 380px;
+}
+.display-float-container1 .display-row3 .display-float-card-imgbx-5 img
+{
+  width:250px;
+  height: 250px;
+}
+.display-float-card-content-6
+ {
+  width: 64%;
+  margin: 1%;
+    margin-top: 3%;
+}
+
+.display-float-container1 .display-row3 .display-float-card-content-6 .btn {
+  border:solid black;
+  background-color: blue;
+  padding: 14px 20px;
+    cursor: pointer;
+  width: 25%;
+  display: inline;
+}
+.info {color: white; border-radius: 10%;}
+
+.display-row4 {
+  margin: 1%;
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.display-float-card-content-7
+{
+  width: 64%;
+  margin: 1%;
+    margin-top: 3%;
+}
+
+.display-float-container1 .display-row4 .display-float-card-content-7 .btn {
+  border:solid black;
+  background-color: blue;
+  padding: 14px 20px;
+    cursor: pointer;
+  width: 25%;
+  display: inline;
+}
+.info {color: white; border-radius: 10%;}
+
+.display-float-card-imgbx-8 {
+  width: 31%;
+  margin: 1%;
+  height: 380px;
+
+}
+.display-float-container1 .display-row4 .display-float-card-imgbx-8 img
+{
+  width:250px;
+  height: 250px;
+}
+
+.display-row5 {
+  margin: 1%;
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.display-float-card-imgbx-9 {
+  width: 31%;
+  margin: 1%;
+  height: 380px;
+}
+.display-float-container1 .display-row5 .display-float-card-imgbx-9 img
+{
+  width:250px;
+  height: 250px;
+}
+.display-float-card-content-10
+ {
+  width: 64%;
+  margin: 1%;
+    margin-top: 3%;
+}
+
+.display-float-container1 .display-row5 .display-float-card-content-10 .btn {
+  border:solid black;
+  background-color: blue;
+  padding: 14px 20px;
+    cursor: pointer;
+  width: 25%;
+  display: inline;
+}
+.info {color: white; border-radius: 10%;}
+
+}
+
+@media screen and (max-width :850px)
+{
+  .display-float-container1
+{
+  display: flex;
+  width: 100%;
+  flex-flow: column wrap;
+}
+
+.display-row1
+{
+  margin: 1%;
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.display-float-card-imgbx-1
+{
+  margin:1%;
+  width: 31%;
+  height: 280px;
+}
+.display-float-container1 .display-row1 .display-float-card-imgbx-1 img
+{
+  width:220px;
+  height: 220px;
+}
+.display-float-card-content-2
+{
+    margin-top: 3%;
+  width: 64%;
+  margin: 1%;
+}
+.display-float-container1 .display-row1 .display-float-card-content-2 .btn {
+  border:solid black;
+  background-color: blue;
+  padding: 14px 20px;
+    cursor: pointer;
+  width: 25%;
+  display: inline;
+}
+.info {color: white; border-radius: 10%;}
+
+.display-row2 {
+  margin: 1%;
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.display-float-card-content-3
+{
+  width: 64%;
+  margin: 1%;
+
+    margin-top: 3%;
+}
+
+.display-float-container1 .display-row2 .display-float-card-content-3 .btn {
+  border:solid black;
+  background-color: blue;
+  padding: 14px 20px;
+    cursor: pointer;
+  width: 25%;
+  display: inline;
+}
+.info {color: white; border-radius: 10%;}
+
+.display-float-card-imgbx-4 {
+  width: 31%;
+  margin: 1%;
+  height: 280px;
+
+}
+.display-float-container1 .display-row2 .display-float-card-imgbx-4 img
+{
+  width:220px;
+  height: 220px;
+}
+
+
+.display-row3 {
+  margin: 1%;
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.display-float-card-imgbx-5 {
+  width: 31%;
+  margin: 1%;
+  height: 280px;
+}
+.display-float-container1 .display-row3 .display-float-card-imgbx-5 img
+{
+  width:220px;
+  height: 220px;
+}
+.display-float-card-content-6
+ {
+  width: 64%;
+  margin: 1%;
+    margin-top: 3%;
+}
+
+.display-float-container1 .display-row3 .display-float-card-content-6 .btn {
+  border:solid black;
+  background-color: blue;
+  padding: 14px 20px;
+    cursor: pointer;
+  width: 25%;
+  display: inline;
+}
+.info {color: white; border-radius: 10%;}
+
+
+.display-row4 {
+  margin: 1%;
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.display-float-card-content-7
+{
+  width: 64%;
+  margin: 1%;
+    margin-top: 3%;
+}
+
+.display-float-container1 .display-row4 .display-float-card-content-7 .btn {
+  border:solid black;
+  background-color: blue;
+  padding: 14px 20px;
+    cursor: pointer;
+  width: 25%;
+  display: inline;
+}
+.info {color: white; border-radius: 10%;}
+
+.display-float-card-imgbx-8 {
+  width: 31%;
+  margin: 1%;
+  height: 280px;
+
+}
+.display-float-container1 .display-row4 .display-float-card-imgbx-8 img
+{
+  width:220px;
+  height: 220px;
+}
+
+
+.display-row5 {
+  margin: 1%;
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.display-float-card-imgbx-9 {
+  width: 31%;
+  margin: 1%;
+  height: 280px;
+}
+.display-float-container1 .display-row5 .display-float-card-imgbx-9 img
+{
+  width:220px;
+  height: 220px;
+}
+.display-float-card-content-10
+ {
+  width: 64%;
+  margin: 1%;
+    margin-top: 3%;
+}
+
+.display-float-container1 .display-row5 .display-float-card-content-10 .btn {
+  border:solid black;
+  background-color: blue;
+  padding: 14px 20px;
+    cursor: pointer;
+  width: 25%;
+  display: inline;
+}
+.info {color: white; border-radius: 10%;}
+
+}
+
+@media screen and (max-width :801px)
+{
+  .display-float-container1
+  {
+      margin-top: 950px;
+  }
+}
+
+@media screen and (max-width :700px)
+{
+
+  
+
+  .display-float-card-imgbx-1
+{
+  width: 100%;
+  height: 300px;
+}
+
+.display-float-card-imgbx-4
+{
+  width: 100%;
+  height: 300px;
+
+}
+.display-float-card-imgbx-5
+{
+  width: 100%;
+  height: 300px;
+
+}
+.display-float-card-imgbx-8
+{
+  width: 100%;
+  height: 300px;
+
+}
+.display-float-card-imgbx-9
+{
+  width: 100%;
+  height: 300px;
+
+}
+.display-float-card-content-2
+{
+  width: 100%;
+
+}
+
+.display-float-card-content-3
+{
+  width: 100%;
+
+}
+
+.display-float-card-content-6
+{
+  width: 100%;
+
+}
+.display-float-card-content-7
+{
+  width: 100%;
+
+}
+.display-float-card-content-10
+{
+  width: 100%;
+
+}
+.display-float-container1 .display-row1 .display-float-card-imgbx-1 img
+{
+  width:270px;
+  height: 270px;
+}.display-float-container1 .display-row2 .display-float-card-imgbx-4 img
+{
+  width:270px;
+  height: 270px;
+}.display-float-container1 .display-row3 .display-float-card-imgbx-5 img
+{
+  width:270px;
+  height: 270px;
+}
+.display-float-container1 .display-row4 .display-float-card-imgbx-8 img
+{
+  width:270px;
+  height: 270px;
+}
+.display-float-container1 .display-row5 .display-float-card-imgbx-9 img
+{
+  width:270px;
+  height: 270px;
+}
+}
+
+@media screen and (max-width : 480px)
+{
+  .display-float-container1 .display-row1 .display-float-card-content-2 .btn {
+    border:solid black;
+    background-color: blue;
+        cursor: pointer;
+    width: 40%;
+    display: inline;
+  }
+  .info {color: white; border-radius: 10%;}
+  .display-float-container1 .display-row2 .display-float-card-content-3 .btn {
+    border:solid black;
+    background-color: blue;
+        cursor: pointer;
+    width: 40%;
+    display: inline;
+  }
+  .info {color: white; border-radius: 10%;}
+  .display-float-container1 .display-row3 .display-float-card-content-6 .btn {
+    border:solid black;
+    background-color: blue;
+        cursor: pointer;
+    width: 40%;
+    display: inline;
+  }
+  .info {color: white; border-radius: 10%;}
+  .display-float-container1 .display-row4 .display-float-card-content-7 .btn {
+    border:solid black;
+    background-color: blue;
+        cursor: pointer;
+    width: 40%;
+    display: inline;
+  }
+  .info {color: white; border-radius: 10%;}
+  .display-float-container1 .display-row5 .display-float-card-content-10 .btn {
+    border:solid black;
+    background-color: blue;
+        cursor: pointer;
+    width: 40%;
+    display: inline;
+  }
+  .info {color: white; border-radius: 10%;}
+}
+
+@media screen and (max-width :450px)
+{
+  .display-float-card-imgbx-1
+{
+  width: 100%;
+  height: 250px;
+  
+}
+
+.display-float-card-imgbx-4
+{
+  width: 100%;
+  height: 250px;
+
+}
+.display-float-card-imgbx-5
+{
+  width: 100%;
+  height: 250px;
+
+}
+.display-float-card-imgbx-8
+{
+  width: 100%;
+  height: 250px;
+
+}
+.display-float-card-imgbx-9
+{
+  width: 100%;
+  height: 250px;
+
+}
+.display-float-card-content-2
+{
+  width: 100%;
+  
+}
+
+.display-float-card-content-3
+{
+  width: 100%;
+  }
+
+.display-float-card-content-6
+{
+  width: 100%;
+  
+
+}
+.display-float-card-content-7
+{
+  width: 100%;
+  }
+.display-float-card-content-10
+{
+  width: 100%;
+  }
+.display-float-container1 .display-row1 .display-float-card-imgbx-1 img
+{
+  margin-top: 5%;
+  width:230px;
+  height: 230px;
+}.display-float-container1 .display-row2 .display-float-card-imgbx-4 img
+{
+  width:230px;
+  margin-top: 5%;
+
+  height: 230px;
+}.display-float-container1 .display-row3 .display-float-card-imgbx-5 img
+{
+  width:230px;
+  height: 230px;
+  margin-top: 5%;
+
+}
+.display-float-container1 .display-row4 .display-float-card-imgbx-8 img
+{
+  width:230px;
+  height: 230px;
+  margin-top: 5%;
+
+}
+.display-float-container1 .display-row5 .display-float-card-imgbx-9 img
+{
+  width:230px;
+  height: 230px;
+  margin-top: 5%;
+
+}
+
+.display-float-container1 .display-row1 .display-float-card-content-2 .btn {
+  border:solid black;
+  background-color: blue;
+    cursor: pointer;
+  width: 35%;
+  display: inline;
+}
+.info {color: white; border-radius: 10%;}
+.display-float-container1 .display-row2 .display-float-card-content-3 .btn {
+  border:solid black;
+  background-color: blue;
+    cursor: pointer;
+  width: 35%;
+  display: inline;
+}
+.info {color: white; border-radius: 10%;}
+.display-float-container1 .display-row3 .display-float-card-content-6 .btn {
+  border:solid black;
+  background-color: blue;
+    cursor: pointer;
+  width: 35%;
+  display: inline;
+}
+.info {color: white; border-radius: 10%;}
+.display-float-container1 .display-row4 .display-float-card-content-7 .btn {
+  border:solid black;
+  background-color: blue;
+    cursor: pointer;
+  width: 35%;
+  display: inline;
+}
+.info {color: white; border-radius: 10%;}
+.display-float-container1 .display-row5 .display-float-card-content-10 .btn {
+  border:solid black;
+  background-color: blue;
+    cursor: pointer;
+  width: 35%;
+  display: inline;
+}
+.info {color: white; border-radius: 10%;}
+}
+
+
+
+@media screen and (max-width : 349px)
+{
+  .display-float-container1
+  {
+      margin-top: 1000px;
+  }
+}
+@media screen and (max-width : 320px)
+{
+  .display-float-container1
+  {
+      margin-top: 1050px;
+  }
+}
+
+
+@media screen and (max-width : 269px)
+{
+  .display-float-container1
+  {
+      margin-top: 1100px;
+  }
+  
+  .display-float-container1 .display-row1 .display-float-card-content-2 .btn {
+    border:solid black;
+    background-color: blue;
+        cursor: pointer;
+    width: 45%;
+    display: inline;
+  }
+  .info {color: white; border-radius: 10%;}
+  .display-float-container1 .display-row2 .display-float-card-content-3 .btn {
+    border:solid black;
+    background-color: blue;
+        cursor: pointer;
+    width: 45%;
+    display: inline;
+  }
+  .info {color: white; border-radius: 10%;}
+  .display-float-container1 .display-row3 .display-float-card-content-6 .btn {
+    border:solid black;
+    background-color: blue;
+        cursor: pointer;
+    width: 45%;
+    display: inline;
+  }
+  .info {color: white; border-radius: 10%;}
+  .display-float-container1 .display-row4 .display-float-card-content-7 .btn {
+    border:solid black;
+    background-color: blue;
+        cursor: pointer;
+    width: 45%;
+    display: inline;
+  }
+  .info {color: white; border-radius: 10%;}
+  .display-float-container1 .display-row5 .display-float-card-content-10 .btn {
+    border:solid black;
+    background-color: blue;
+        cursor: pointer;
+    width: 45%;
+    display: inline;
+  }
+  .info {color: white; border-radius: 10%;}
+}
+
+@media screen and (max-width : 250px)
+{
+  .display-float-container1
+  {
+      margin-top: 1150px;
+  }
+} */
+
+.display-container
+{
+  display: flex;
+  width: 100%;
+  margin-top:840px;
+  flex-direction: column;
+}
+
+.display-h1
+{
+  color:white;
+  font-size: 2.5rem;
+}
+
+.display-heading
+{
+  margin-bottom: 1%;
+}
+
+.display-wrapper
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.display-card{
+  position: relative;
+  width: 23%;
+  margin: 1%;
+  cursor: pointer;
+  width: 300px;
+  height: 350px;
+}
+.display-front,.display-back{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .5s ease;
+}
+.display-front img{
+  height: 80%;
+  width: 100%;
+  transform: perspective(600px) rotateY(0deg);
+}
+.display-front h2{
+  margin: 2%;
+  color: white;
+  text-align: center;   
+}
+.display-back{
+  background: black;
+  transform: perspective(600px) rotateY(180deg);
+}
+.display-back-content{
+  margin-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  color: white;
+  font-size: 0.4rem;
+}
+.display-back-content button{
+  cursor: pointer;
+  width: 90%;
+}
+.display-card:hover > .display-front{
+  transform: rotateY(-180deg);
+}
+.display-card:hover > .display-back{
+  transform: perspective(600px) rotateY(0deg);
+}
+@media screen and (max-width :1000px)
+{
+  .display-card{
+    position: relative;
+    width: 23%;
+    margin: 1%;
+    cursor: pointer;
+    width: 250px;
+    height: 300px;
+  }
+  .display-back-content{
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    color: white;
+    font-size: 0.3rem;
+  }
+}
+
+@media screen and (max-width :700px)
+{
+  .display-container
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+  .display-card{
+    position: relative;
+    width: 48%;
+    margin: 1%;
+    cursor: pointer;
+    width: 300px;
+    height: 350px;
+  }
+}
+@media screen and (max-width :650px)
+{
+  .display-container
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+  .display-card{
+    position: relative;
+    width: 48%;
+    margin: 1%;
+    cursor: pointer;
+    width: 250px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width :550px)
+{
+  .display-container
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+  .display-card{
+    position: relative;
+    width: 48%;
+    margin: 1%;
+    cursor: pointer;
+    width: 220px;
+    height: 250px;
+  }
+  .display-front img{
+    height: 75%;
+    width: 100%;
+    transform: perspective(600px) rotateY(0deg);
+  }
+  .display-back-content{
+    margin-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width :475px){
+  .display-container
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+  .display-card{
+    position: relative;
+    width: 98%;
+    margin: 1%;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 350px;
+    justify-content: center;
+
+  }
+  .display-front,.display-back{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .5s ease;
+  }
+  .display-front img{
+    height: 80%;
+    width: 100%;
+    transform: perspective(600px) rotateY(0deg);
+  }
+  .display-front h2{
+    margin: 2%;
+    color: white;
+    text-align: center;   
+  }
+  .display-back{
+    background: black;
+    transform: perspective(600px) rotateY(180deg);
+  }
+  .display-back-content{
+    margin-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+  }
+  .display-back-content button{
+    cursor: pointer;
+    width: 90%;
+  }
+  .display-card:hover > .display-front{
+    transform: rotateY(-180deg);
+  }
+  .display-card:hover > .display-back{
+    transform: perspective(600px) rotateY(0deg);
+  }
+}
+@media screen and (max-width :350px){
+  .display-card{
+    position: relative;
+    width: 98%;
+    margin: 1%;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 300px;
+    justify-content: center;
+  }
+  .display-back-content{
+    margin-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width :280px){
+  .display-card{
+    position: relative;
+    width: 98%;
+    margin: 1%;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 250px;
+    justify-content: center;
+  }
+  .display-front img{
+    height: 70%;
+    width: 100%;
+    transform: perspective(600px) rotateY(0deg);
+  }
+  .display-back-content{
+    margin-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+  }
+}
