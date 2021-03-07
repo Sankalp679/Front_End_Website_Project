@@ -27,8 +27,8 @@ testwebsitedev.netlify.app
   
 <details><summary><b>Website Snippets</b></summary>
 </br>
-<img alt="Website Snippets-1" src="images/top.gif"> </img></br>
-<img alt="Website Snippets-2" src="images/navbar.gif"></img></br>
+<img alt="Website Snippets-1" src="images/top.gif"> </img></br></br>
+<img alt="Website Snippets-2" src="images/navbar.gif"></img></br></br>
 <img alt="Website Snippets-3" src="images/full.gif"></img>
 </details>      
 
