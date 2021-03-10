@@ -1,7 +1,7 @@
 <h1 align="center">Responsive Animated Website</h1>
   
 <details><summary><b>See The Website</b></summary>
-[Website](https://testwebsitedev.netlify.app/)
+testwebsitedev.netlify.app
 
 </details>
 <details><summary><b>Contributors</b></summary>
