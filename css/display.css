@@ -1015,12 +1015,6 @@
 
 @media screen and (max-width :700px)
 {
-  .display-container
-{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
   .display-card{
     position: relative;
     width: 48%;
@@ -1030,14 +1024,15 @@
     height: 350px;
   }
 }
+
 @media screen and (max-width :650px)
 {
-  .display-container
-{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
+
+  .display-wrapper
+  {
+    flex-wrap: wrap;
+  }
+
   .display-card{
     position: relative;
     width: 48%;
@@ -1050,12 +1045,6 @@
 
 @media screen and (max-width :550px)
 {
-  .display-container
-{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
   .display-card{
     position: relative;
     width: 48%;
@@ -1080,11 +1069,6 @@
 }
 
 @media screen and (max-width :475px){
-  .display-container
-  {
-    display: flex;
-    justify-content: space-between;
-  }
   .display-card{
     position: relative;
     width: 98%;
